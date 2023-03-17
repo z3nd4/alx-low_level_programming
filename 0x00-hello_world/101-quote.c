@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <unistd.h>
-
 /**
  * main - prints exactly 
  * Return: Always 1 (Success)

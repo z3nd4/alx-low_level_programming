@@ -8,20 +8,20 @@
  */
 int main(void)
 {
-	int num1, num2;
+	int i, j;
 
-	for (num1 = 0; num1 <= 99; num1++)
+	for (i = 0; i < 100; i++)
 	{
-		for (num2  = num1; num2 <= 99; num1++)
+		for (j = 0; j < 100; j++)
 		{
-			if (num1 != num2)
+			if (i < j)
 			{
-				putchar(num1 / 10 + '0');
-				putchar(num1 % 10 + '0');
+				putchar((i / 10) + 48);
+				putchar((i % 10) + 48);
 				putchar(' ');
-				putchar(num2 / 10 + '0');
-				putchar(num2 % 10 + '0');
-				if (num1 < 98 || num2 < 99)
+				putchar((j / 10) + 48);
+				putchar((j % 10) + 48);
+				if (i != 98 || j != 99)
 				{
 					putchar(',');
 					putchar(' ');

@@ -28,7 +28,7 @@ int main(void)
 		else if (i == 55)
 			j = 56;
 		else
-			j =57;
+			j = 57;
 		for (; j <= 57;)
 		{
 			putchar(i);

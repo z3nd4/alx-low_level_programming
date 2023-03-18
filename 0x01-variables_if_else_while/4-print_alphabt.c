@@ -2,25 +2,25 @@
 
 /**
  * main - Prints the alphabet in lowercase,
- * and then in uppercase
+ * except 'q' and 'e'
  *
  * Return: 0
  */
 int main(void)
 {
-	char letter;
+	char letter = 'a';
 	
-	for (letter = 'a'; letter <= 'z'; letter++)
+	while (letter <= 'z')
+	{
+		if (letter != 'q' && letter != 'e')
+		
 	{
 		putchar(letter);
 	}
-
-	for (letter = 'A'; letter <= 'Z'; letter++)
-	{
-		putchar(letter);
+		letter++;
 	}
 	
 	putchar('\n');
-	
+
 	return (0);
 }

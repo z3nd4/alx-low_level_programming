@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet in lowercase,
+ * main - Prints all single numbers
  *
  * Return: 0
  */
@@ -11,7 +11,7 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		printf("%d\n", i);
+		printf("%d", i);
 	}
 
 	return (0);
